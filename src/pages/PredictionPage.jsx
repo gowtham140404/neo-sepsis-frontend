@@ -6,7 +6,7 @@ import {
   Loader, RefreshCw, Info
 } from 'lucide-react';
 import { usePredict } from '../hooks/usePredict';
-import { usePatientCtx } from '../App';
+import { usePatientCtx } from '../app';
 import { RiskGauge, RiskBadge } from '../components/RiskGauge';
 
 // ─── Field definitions ──────────────────────────────────────────────────────
