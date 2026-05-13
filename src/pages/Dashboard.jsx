@@ -7,7 +7,7 @@ import {
   AreaChart, Area, XAxis, YAxis, Tooltip,
   ResponsiveContainer, PieChart, Pie, Cell
 } from 'recharts';
-import { usePatientCtx } from '../App';
+import { usePatientCtx } from '../app';
 import PatientCard from '../components/PatientCard';
 
 const STAT_COLORS = [

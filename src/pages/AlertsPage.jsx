@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 import { AlertTriangle, Bell, Clock, ChevronRight, Baby } from 'lucide-react';
-import { usePatientCtx } from '../App';
+import { usePatientCtx } from '../app';
 import { RiskBadge } from '../components/RiskGauge';
 
 export default function AlertsPage() {
