@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import {
   LayoutDashboard, Zap, Bell, Settings, Activity, AlertTriangle
 } from 'lucide-react';
-import { usePatientCtx } from '../App';
+import { usePatientCtx } from '../app';
 import InstallPrompt from './InstallPrompt';
 
 const NAV = [
