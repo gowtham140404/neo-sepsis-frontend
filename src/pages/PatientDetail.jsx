@@ -4,7 +4,7 @@ import { ArrowLeft, Baby, Activity, AlertTriangle, CheckCircle, Clipboard } from
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell
 } from 'recharts';
-import { usePatientCtx } from '../App';
+import { usePatientCtx } from '../app';
 import { RiskGauge, RiskBadge } from '../components/RiskGauge';
 
 const SIGN_LABELS = {
